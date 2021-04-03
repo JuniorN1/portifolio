@@ -1,0 +1,91 @@
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" charset="utf-8">
+    <title>Portifolio</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-grid.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-reboot.css">
+</head>
+<script>
+    $(function() {
+        var nua = navigator.userAgent
+        var isAndroid = (nua.indexOf('Mozilla/5.0') > -1 && nua.indexOf('Android ') > -1 && nua.indexOf('AppleWebKit') > -1 && nua.indexOf('Chrome') === -1)
+        if (isAndroid) {
+            $('select.form-control').removeClass('form-control').css('width', '100%')
+        }
+    })
+</script>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light shadow fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Software DevOps</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link scrollSuave" href="index.html#home">Home
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link scrollSuave"  href="#sobre">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projetos">Porjetos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#servicos">Servicos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#equipe">Equipe</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contato">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Full Page Image Header with Vertically Centered Content -->
+    <header class="masthead" id="home">
+        <div class="container h-100 ">
+            <div class="row h-100 align-items-center ">
+                <div class="col-12 text-center ">
+                   <!-- <h1 class="font-weight-light">Software DevOps</h1>
+                    <p class="lead">O futuro Esta na Nuven!</p>-->
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Page Content -->
+    <section class="py-5" id="projeto-1">
+        <div class="container text-justify">
+            <h2 class="font-weight-light">Projeto 1</h2>
+            <p>
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                 quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                 Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat 
+                 nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia 
+                 deserunt mollit anim id est laborum."
+            </p>
+        </div>
+        <div class="container">
+            <div class="embed-responsive embed-responsive-21by9">
+                <iframe   src="https://www.youtube.com/embed/QSIPNhOiMoE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+        </div>
+    </section>
+    <footer>
+    </footer>
+    <script src="js/bootstrap.js"></script>
+
+    <script src="js/bootstrap.bundle.js"></script>
+</body>
+
+</html>
